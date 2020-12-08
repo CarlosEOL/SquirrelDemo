@@ -1,3 +1,5 @@
+package src;
+
 public class Squirrel {
 
   String Name;
@@ -19,10 +21,8 @@ public class Squirrel {
     System.out.print("Yes, it can jump");
   }
 
-  public boolean DoAFlip() {
-    return true;
+  public void DoAFlip() {
     System.out.print("Yes it did a flip");
   }
 
-  public boolean DoA(boolean bln)
 }
